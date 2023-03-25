@@ -1,0 +1,25 @@
+
+$primary-color: rgb(171, 171, 247);
+$success-color:rgb(21, 255, 0);
+$danger-color:red;
+$warning-color:yellow;
+$silver-app:rgb(85, 82, 82);
+$default-color:white;
+
+
+@function getColor($color){
+    @if(lightness($color) > 70 ){
+        @return red;
+    }
+
+    @else{
+        @return  white;
+    }
+
+}
+
+
+@mixin setCommonDesign($color){
+color: $color;
+background: $color;
+}

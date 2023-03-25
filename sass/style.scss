@@ -1,0 +1,33 @@
+@import "global-config";
+@import "utils";
+@import "buttons";
+
+
+h1 {
+    // background: $warning-color;
+    // color: $warning-color;
+    @include setCommonDesign($primary-color);
+}
+
+
+p{
+    @include setCommonDesign($primary-color);
+ 
+}
+
+.containerpp {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+@import'mobile';
+@import'tablet';
+@import'desktop';
+

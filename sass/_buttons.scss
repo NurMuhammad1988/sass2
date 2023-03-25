@@ -1,0 +1,25 @@
+%common {
+    padding: 8px 20px;
+    margin: 5px;
+    background-color: $primary-color;
+    text-decoration: none;
+    border-radius: 6px;
+    // color: getColor($primary-color);global configdagi getcolorni natijasi
+    color: $default-color;
+    &:hover {
+        transform: scale(0.98);
+    }
+}
+
+
+.signin {
+    @extend %common;
+}
+
+
+.signup {
+    @extend %common;
+    // background-color: lighten($primary-color, 30%);
+    background-color: darken($primary-color, 30%);
+
+}

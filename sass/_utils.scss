@@ -1,0 +1,21 @@
+
+body {
+    background-color: rgba(165, 42, 42, 0.473);
+    // color: $danger-color;
+}
+
+.container{
+    &-content{
+        color: rgb(17, 0, 255);
+        &:hover{
+            color: $silver-app;
+            color: $warning-color;
+            cursor: grab;
+        }
+    }
+}
+
+
+
+
+

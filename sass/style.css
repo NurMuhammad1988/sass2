@@ -1,0 +1,49 @@
+body {
+  background-color: rgba(165, 42, 42, 0.473);
+}
+
+.container-content {
+  color: rgb(17, 0, 255);
+}
+.container-content:hover {
+  color: rgb(85, 82, 82);
+  color: yellow;
+  cursor: grab;
+}
+
+.signup, .signin {
+  padding: 8px 20px;
+  margin: 5px;
+  background-color: rgb(171, 171, 247);
+  text-decoration: none;
+  border-radius: 6px;
+  color: white;
+}
+.signup:hover, .signin:hover {
+  transform: scale(0.98);
+}
+
+.signup {
+  background-color: #1f1fea;
+}
+
+h1 {
+  color: rgb(171, 171, 247);
+  background: rgb(171, 171, 247);
+}
+
+p {
+  color: rgb(171, 171, 247);
+  background: rgb(171, 171, 247);
+}
+
+.containerpp {
+  color: red;
+}
+
+@media (max-width: 700px) {
+  .container-content {
+    font-size: 120px;
+    background-color: red;
+  }
+}/*# sourceMappingURL=style.css.map */
